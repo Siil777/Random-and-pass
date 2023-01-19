@@ -14,7 +14,7 @@ while True:
     if a==1:
        a=users(str(input('username:')))
        
-       b=password(int(input('password:')))
+       b=password(str(input('password:')))
     elif a==2:
         login=log(input('username:'),input('password:'))
     elif a==0:
