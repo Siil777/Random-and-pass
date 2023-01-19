@@ -44,7 +44,7 @@ def users(a:int)->any:
         return user
 def password(b:int):
     pass1=" "
-    for i in range(b):
+    for i in range(1):
         p=choice(string.digits)
         dig=choice([1,2,3,4,5,6,7,8,9])
         #dig=choice([a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z])
